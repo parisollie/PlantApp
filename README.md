@@ -16,6 +16,11 @@ This application contains the following knowledge:
 
 - Animation
 
+- GeomtryEffect
+
+- Carousel
+
+- TabViews
 ## The aplication look like this :
 
 ![Simulator Screenshot - iPhone 16 - 2025-02-27 at 13 53 40](https://github.com/user-attachments/assets/66dfad08-fe81-46c7-9859-b5ce74d0586d)
