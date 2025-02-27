@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//Paso 2.19, carrusel
 // MARK: Custom View
 // Refactoring Code For Snap Carousel
 struct CustomCarousel<Content: View,Item,ID>: View where Item: RandomAccessCollection,ID: Hashable,Item.Element: Equatable {
@@ -78,7 +79,7 @@ struct CustomCarousel<Content: View,Item,ID>: View where Item: RandomAccessColle
     }
     
     func onChanged(value: DragGesture.Value,cardWidth: CGFloat){
-        // Limiting Over Scroll
+        //Paso 2.27 Limiting Over Scroll
         var translationX = value.translation.width
         translationX = (index == 0 && translationX > 0 ? (translationX / 4) : translationX)
         translationX = (index == items.count - 1 && translationX < 0 ? (translationX / 4) : translationX)

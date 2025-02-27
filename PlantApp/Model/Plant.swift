@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//Paso 2.20
 // MARK: Plant Model And Sample Data
 struct Plant: Identifiable,Equatable{
     var id: String = UUID().uuidString

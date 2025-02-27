@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: Tab's
-// Raw Value is the Asset Image Name
+// Paso 1.0 , Raw Value is the Asset Image Name
 enum Tab: String,CaseIterable{
     case home = "Home"
     case scan = "Scan"
